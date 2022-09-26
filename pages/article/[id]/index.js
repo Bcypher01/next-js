@@ -1,9 +1,9 @@
 import { server } from "../../../config";
 import Link from "next/link";
-import { userRouter } from "next/router";
+import { useRouter } from "next/router";
 
 const article = ({ article }) => {
-  //   const router = userRouter();
+  //   const router = useRouter();
   //   const { id } = router.query;
 
   return (
